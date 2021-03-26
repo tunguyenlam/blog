@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://tunguyenlam.github.io/sitemap.xml
