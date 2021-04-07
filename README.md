@@ -1,3 +1,7 @@
+[blog link](https://tunguyenlam.github.io/blog/)
+
+
+
 [//]: # (BADGES SECTION: change `fastai` with your GitHub username and `fastpages` with the name of your repo)
 
 ![](https://github.com/fastai/fastpages/workflows/CI/badge.svg)
