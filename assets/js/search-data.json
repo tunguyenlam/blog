@@ -15,9 +15,9 @@
         ,"post1": {
             "title": "Title",
             "content": "Generate sample data . To generate sample data, we need to build a model for time series. . The simplest way to depict the time series is by using linear model: . $$y = x^T * theta$$ . Basically, it estimates a line between data points. And it try to optimize the residuals between estimated results and actual results. However, this way does not describe some essensials of time series problem, such as treding or period. So, we will use a more complex model to depict the time series. . $$y = intercept + trend(t) + period(t) + nuisance$$ . import numpy as np m = 1000 intercept = 50 trend = 0.5 period = lambda t: np.sin(2*np.pi*t/180) nuisance = np.random.normal(0,120, m) t = np.arange(m) y = intercept + trend * t + 120*period(t) + nuisance[t] . import matplotlib.pyplot as plt plt.plot(y) . [&lt;matplotlib.lines.Line2D at 0x7fc33f3f9c88&gt;] . The time series above has both trend and seasonality. We can easily generate the stationary time series by get the nuisance only. . t = np.arange(m) y = intercept + nuisance[t] plt.plot(y) . [&lt;matplotlib.lines.Line2D at 0x7fc33f3aa710&gt;] . Similarity, we can generate the time series with period only. . y = intercept + period(t) plt.plot(y) . [&lt;matplotlib.lines.Line2D at 0x7fc33f258f28&gt;] .",
-            "url": "https://tunguyenlam.github.io/blog/2021/06/21/Time-Series-part2-sample-data-generation.html",
-            "relUrl": "/2021/06/21/Time-Series-part2-sample-data-generation.html",
-            "date": " • Jun 21, 2021"
+            "url": "https://tunguyenlam.github.io/blog/2021/06/22/Time-Series-part2-sample-data-generation.html",
+            "relUrl": "/2021/06/22/Time-Series-part2-sample-data-generation.html",
+            "date": " • Jun 22, 2021"
         }
         
     
