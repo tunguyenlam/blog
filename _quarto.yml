@@ -12,12 +12,12 @@ website:
     style: "docked"
     search: true
     contents:
-      - section: "fastai"
+      - section: "Algebraic"
         contents:
-          - lessons/01_what_is_that.ipynb
-      - section: "blog"
+          - Algebraic/01_what_is_that.ipynb
+      - section: "Probability"
         contents:
-          - myblog/2_first_post.ipynb
+          - Probability/2_first_post.ipynb
       
         
 
