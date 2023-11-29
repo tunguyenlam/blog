@@ -1,11 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>https://tunguyenlam.github.io/blog/myblog/2_first_post.html</loc>
+    <lastmod>2023-11-29T17:46:41.971Z</lastmod>
+  </url>
+  <url>
     <loc>https://tunguyenlam.github.io/blog/about.html</loc>
-    <lastmod>2023-11-29T17:40:56.042Z</lastmod>
+    <lastmod>2023-11-29T17:46:41.101Z</lastmod>
   </url>
   <url>
     <loc>https://tunguyenlam.github.io/blog/index.html</loc>
-    <lastmod>2023-11-29T17:40:55.790Z</lastmod>
+    <lastmod>2023-11-29T17:46:40.831Z</lastmod>
+  </url>
+  <url>
+    <loc>https://tunguyenlam.github.io/blog/lessons/01_what_is_that.html</loc>
+    <lastmod>2023-11-29T17:46:41.640Z</lastmod>
   </url>
 </urlset>
