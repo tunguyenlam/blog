@@ -14,10 +14,13 @@ website:
     contents:
       - section: "fastai"
         contents:
-          - lessions/01_what_is_that.ipynb
+          - lessons/01_what_is_that.ipynb
       - section: "blog"
         contents:
           - myblog/2_first_post.ipynb
+      
+        
+
 
 format:
   html:
