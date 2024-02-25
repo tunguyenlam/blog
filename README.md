@@ -555,3 +555,6 @@ fastpages builds upon the [minima theme](https://github.com/jekyll/minima).  If 
 # Troubleshooting fastpages
 
 Please see the [troubleshooting guide](https://github.com/fastai/fastpages/blob/master/_fastpages_docs/TROUBLESHOOTING.md).
+
+# Error fixing:
+1) SSH_DEPLOY_KEY
