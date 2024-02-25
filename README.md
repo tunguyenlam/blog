@@ -561,3 +561,5 @@ Please see the [troubleshooting guide](https://github.com/fastai/fastpages/blob/
 2) Error: Action failed with "The process '/usr/bin/git' failed with exit code 128"
 
 https://github.com/tunguyenlam/blog/settings/keys add key with write access 
+
+3) set page to gh-pages: https://github.com/tunguyenlam/blog/settings/pages
