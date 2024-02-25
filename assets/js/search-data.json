@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "A similarity problem",
-            "content": "assume we want to compute: Q=P⋅PT begin{aligned} Q = P cdot P^T end{aligned}Q=P⋅PT​ . $Q$ is the covariance matrix from product liked vector representation. .",
+            "content": "assume we want to compute: $$ begin{aligned} . Q = P cdot P^T . end{aligned} $$ . $ Q $ is the covariance matrix from product liked vector representation. .",
             "url": "https://tunguyenlam.github.io/blog/2024/02/28/a-similarity-problem.html",
             "relUrl": "/2024/02/28/a-similarity-problem.html",
             "date": " • Feb 28, 2024"
