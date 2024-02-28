@@ -2,8 +2,8 @@
   
     
         "post0": {
-            "title": "Title",
-            "content": "Abstraction .",
+            "title": "How to encode categorical feature",
+            "content": "Abstraction . There are some popular ways to encode categorical feature: Using dictionary to convert data to index, using one-hot vector approach, or we just train a neural network and encode data as word2vec. . Solution . Character-level tockenization . https://discuss.huggingface.co/t/character-level-tokenizer/12450 https://towardsdatascience.com/word-subword-and-character-based-tokenization-know-the-difference-ea0976b64e17 https://www.reddit.com/r/MachineLearning/comments/uukxk7/d_characterlevel_vs_wordlevel_tokenization/ . Byte Pair Encoding - Karpathy approach . https://github.com/karpathy/minbpe .",
             "url": "https://tunguyenlam.github.io/blog/2024/02/29/How-to-encode-categorical-feature.html",
             "relUrl": "/2024/02/29/How-to-encode-categorical-feature.html",
             "date": " • Feb 29, 2024"
