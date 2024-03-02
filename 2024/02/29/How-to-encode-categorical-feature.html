@@ -425,7 +425,7 @@ when we want to transform non-numeric data to numeric data. such as, we transfor
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Byte-Pair-Encoding---Karpathy-approach">Byte Pair Encoding - Karpathy approach<a class="anchor-link" href="#Byte-Pair-Encoding---Karpathy-approach"> </a></h2><p>Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization. The BPE algorithm is "byte-level" because it runs on UTF-8 encoded strings.</p>
+<h2 id="Byte-Pair-Encoding">Byte Pair Encoding<a class="anchor-link" href="#Byte-Pair-Encoding"> </a></h2><p>Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization. The BPE algorithm is "byte-level" because it runs on UTF-8 encoded strings.</p>
 <p>The tricky thing to note is that minbpe always allocates the 256 individual bytes as tokens, and then merges bytes as needed from there. So for us a=97, b=98, c=99, d=100 (their ASCII values).</p>
 <p><strong>References:</strong><br />
 <a href="https://en.wikipedia.org/wiki/Byte_pair_encoding">https://en.wikipedia.org/wiki/Byte_pair_encoding</a></p>
@@ -442,12 +442,9 @@ when we want to transform non-numeric data to numeric data. such as, we transfor
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">sys</span>
-
 <span class="n">sys</span><span class="o">.</span><span class="n">path</span><span class="o">.</span><span class="n">append</span><span class="p">(</span><span class="s2">&quot;../code&quot;</span><span class="p">)</span>
-
-<span class="c1"># sys.path.append(os.path.abspath(os.path.join(os.getcwd(), &quot;../&quot;)) + &quot;/code&quot;)</span>
-
 <span class="kn">from</span> <span class="nn">minbpe.minbpe</span> <span class="kn">import</span> <span class="n">BasicTokenizer</span>
+
 <span class="n">tokenizer</span> <span class="o">=</span> <span class="n">BasicTokenizer</span><span class="p">()</span>
 <span class="n">text</span> <span class="o">=</span> <span class="s2">&quot;aaabdaaabac&quot;</span>
 <span class="n">tokenizer</span><span class="o">.</span><span class="n">train</span><span class="p">(</span><span class="n">text</span><span class="p">,</span> <span class="mi">256</span> <span class="o">+</span> <span class="mi">3</span><span class="p">)</span> <span class="c1"># 256 are the byte tokens, then do 3 merges</span>
@@ -470,6 +467,40 @@ when we want to transform non-numeric data to numeric data. such as, we transfor
 aaabdaaabac
 </pre>
 </div>
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">unknown_word</span> <span class="o">=</span> <span class="s2">&quot;hehe&quot;</span>
+<span class="n">tokenizer</span><span class="o">.</span><span class="n">encode</span><span class="p">(</span><span class="n">unknown_word</span><span class="p">)</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+
+<div class="output_text output_subarea output_execute_result">
+<pre>[104, 101, 104, 101]</pre>
+</div>
+
 </div>
 
 </div>
