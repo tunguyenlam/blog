@@ -1,0 +1,2 @@
+def auto_config():
+    
