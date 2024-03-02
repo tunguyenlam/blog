@@ -425,21 +425,6 @@ when we want to transform non-numeric data to numeric data. such as, we transfor
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Character-level-tockenization">Character-level tockenization<a class="anchor-link" href="#Character-level-tockenization"> </a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<p><a href="https://discuss.huggingface.co/t/character-level-tokenizer/12450">https://discuss.huggingface.co/t/character-level-tokenizer/12450</a>
-<a href="https://towardsdatascience.com/word-subword-and-character-based-tokenization-know-the-difference-ea0976b64e17">https://towardsdatascience.com/word-subword-and-character-based-tokenization-know-the-difference-ea0976b64e17</a>
-<a href="https://www.reddit.com/r/MachineLearning/comments/uukxk7/d_characterlevel_vs_wordlevel_tokenization/">https://www.reddit.com/r/MachineLearning/comments/uukxk7/d_characterlevel_vs_wordlevel_tokenization/</a></p>
-
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
 <h2 id="Byte-Pair-Encoding---Karpathy-approach">Byte Pair Encoding - Karpathy approach<a class="anchor-link" href="#Byte-Pair-Encoding---Karpathy-approach"> </a></h2><p>Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization. The BPE algorithm is "byte-level" because it runs on UTF-8 encoded strings.</p>
 <p>The tricky thing to note is that minbpe always allocates the 256 individual bytes as tokens, and then merges bytes as needed from there. So for us a=97, b=98, c=99, d=100 (their ASCII values).</p>
 <p><strong>References:</strong><br />
