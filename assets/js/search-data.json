@@ -3,7 +3,7 @@
     
         "post0": {
             "title": "Is cosine similarity good enough",
-            "content": "cosine similarity . cosine similarity is the most popular approach to assess similarity between datapoints in Machine Learning. . The weakness of Cosine Similarity . However, Cosine Similarity cannot measure the attitude of datapoints in space. .",
+            "content": "cosine similarity . cosine similarity is the most popular approach to assess similarity between datapoints in Machine Learning. dot(A,B)=∣A∣∣B∣cos(A,B)dot(A,B) = |A||B|cos(A,B)dot(A,B)=∣A∣∣B∣cos(A,B) . The weakness of Cosine Similarity . However, Cosine Similarity cannot measure the attitude of datapoints in space. .",
             "url": "https://tunguyenlam.github.io/blog/2024/03/24/Is-cosine-similarity-good-enough.html",
             "relUrl": "/2024/03/24/Is-cosine-similarity-good-enough.html",
             "date": " • Mar 24, 2024"
