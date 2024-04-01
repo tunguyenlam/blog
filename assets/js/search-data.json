@@ -2,7 +2,7 @@
   
     
         "post0": {
-            "title": "Abstraction",
+            "title": "Waiting time for Commuter",
             "content": "When you coming to a train station, you will think about: &quot;How long do I need to wait for comming train?&quot; . In 2022, the average waiting time on a commute trip in Singapore amounted to about nine minutes. The public transport system in Singapore is made up of buses and two different rail systems: the mass rapid transit (MRT) and light rail transit (LRT). . To estimate the waiting time, we need a probabilistic distribution that is able to model happening event during some specific time. Poisson distribution $ mathcal{P}$, is a good way do do that: $$ mathcal{P} = frac{ lambda^k * e^{- lambda}}{k!} $$ . $ lambda$ is a rate: number of events given a interval. eg: 3 calls per minutes at a call center. Then $ mathcal{P}$ is the probability that we have k events in the same interval. in the call center: Receiving k = 1 to 4 calls then has a probability of about 0.77, while receiving 0 or at least 5 calls has a probability of about 0.23. .",
             "url": "https://tunguyenlam.github.io/blog/2024/04/01/Waiting-time-for-commuter.html",
             "relUrl": "/2024/04/01/Waiting-time-for-commuter.html",
