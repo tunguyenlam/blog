@@ -4,9 +4,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="twitter:card" content="summary_large_image" /><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Data | Tu’s blog</title>
+<title>Transform user into vector space | Tu’s blog</title>
 <meta name="generator" content="Jekyll v4.1.1" />
-<meta property="og:title" content="Data" />
+<meta property="og:title" content="Transform user into vector space" />
 <meta property="og:locale" content="en_US" />
 <meta name="description" content="blog for Machine Learning." />
 <meta property="og:description" content="blog for Machine Learning." />
@@ -16,7 +16,7 @@
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2024-05-24T00:00:00-05:00" />
 <script type="application/ld+json">
-{"url":"https://tunguyenlam.github.io/blog/2024/05/24/Transform-user-into-vector-space.html","@type":"BlogPosting","headline":"Data","dateModified":"2024-05-24T00:00:00-05:00","datePublished":"2024-05-24T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://tunguyenlam.github.io/blog/2024/05/24/Transform-user-into-vector-space.html"},"description":"blog for Machine Learning.","@context":"https://schema.org"}</script>
+{"url":"https://tunguyenlam.github.io/blog/2024/05/24/Transform-user-into-vector-space.html","@type":"BlogPosting","headline":"Transform user into vector space","dateModified":"2024-05-24T00:00:00-05:00","datePublished":"2024-05-24T00:00:00-05:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://tunguyenlam.github.io/blog/2024/05/24/Transform-user-into-vector-space.html"},"description":"blog for Machine Learning.","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/blog/assets/css/style.css"><link type="application/atom+xml" rel="alternate" href="https://tunguyenlam.github.io/blog/feed.xml" title="Tu's blog" /><!-- the google_analytics_id gets auto inserted from the config file -->
 
@@ -102,7 +102,7 @@ window.onload = wrap_img;
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Data</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2024-05-24T00:00:00-05:00" itemprop="datePublished">
+    <h1 class="post-title p-name" itemprop="name headline">Transform user into vector space</h1><p class="post-meta post-meta-title"><time class="dt-published" datetime="2024-05-24T00:00:00-05:00" itemprop="datePublished">
         May 24, 2024
       </time>
        • <span class="read-time" title="Estimated read time">
@@ -170,10 +170,15 @@ window.onload = wrap_img;
 
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<p>We'll build a small program to generate a sample dataset of user that has schema below:
-Wallet Address                           | Transaction Count | Transaction Volume | Avg Transaction Value | Transaction Frequency | Asset Diversity | Liquidity Provision | Staking Activity | Yield Farming Participation | Borrowing Value | Borrowing Frequency | Lending Value | Lending Frequency | Active Periods           | Transaction Recency | Historical Activity Trends
------------------------------------------|-------------------|--------------------|-----------------------|-----------------------|-----------------|--------------------|-----------------|----------------------------|-----------------|---------------------|---------------|-------------------|--------------------------|--------------------|--------------------------
-0x1A2b3C4d5E6f7G8h9I0j1K2l3M4n5O6p7Q8R9S | 120               | 30000              | 250                   | Daily                 | 5               | 10000              | 5000            | 8000                       | 2000            | Weekly              | 3000          | Bi-weekly         | Weekdays 10am-4pm       | 2 days ago          | Increasing</p>
+<h1 id="Data">Data<a class="anchor-link" href="#Data"> </a></h1>
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p>We'll build a small program to generate a sample dataset of user that has schema below:</p>
+
+<pre><code>Wallet Address | Transaction Count | Transaction Volume | Avg Transaction Value | Transaction Frequency | Asset Diversity | Liquidity Provision | Staking Activity | Yield Farming Participation | Borrowing Value | Borrowing Frequency | Lending Value | Lending Frequency | Active Periods| Transaction Recency | Historical Activity Trends</code></pre>
 
 </div>
 </div>
