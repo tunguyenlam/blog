@@ -2,7 +2,7 @@
   
     
         "post0": {
-            "title": "Title",
+            "title": "Sample of liquidity risk assessment",
             "content": "$Liquidity Risk Score= Trading Volume Score+Bid-Ask Spread Score+Market Depth Score+Historical Liquidity Score+Market Presence Score$ ​ . cryptos = { &quot;BTC&quot;: {&quot;Trading Volume&quot;: 1, &quot;Bid-Ask Spread&quot;: 1, &quot;Market Depth&quot;: 2, &quot;Historical Liquidity&quot;: 1, &quot;Market Presence&quot;: 1}, &quot;ETH&quot;: {&quot;Trading Volume&quot;: 2, &quot;Bid-Ask Spread&quot;: 2, &quot;Market Depth&quot;: 2, &quot;Historical Liquidity&quot;: 2, &quot;Market Presence&quot;: 1}, &quot;XRP&quot;: {&quot;Trading Volume&quot;: 3, &quot;Bid-Ask Spread&quot;: 3, &quot;Market Depth&quot;: 3, &quot;Historical Liquidity&quot;: 3, &quot;Market Presence&quot;: 1}, &quot;LTC&quot;: {&quot;Trading Volume&quot;: 3, &quot;Bid-Ask Spread&quot;: 3, &quot;Market Depth&quot;: 4, &quot;Historical Liquidity&quot;: 4, &quot;Market Presence&quot;: 1} } # Calculate the liquidity risk score def calculate_liquidity_risk_score(data): scores = {} for crypto, factors in data.items(): score = sum(factors.values()) / len(factors) scores[crypto] = score return scores # Calculate scores liquidity_risk_scores = calculate_liquidity_risk_score(cryptos) liquidity_risk_scores . {&#39;BTC&#39;: 1.2, &#39;ETH&#39;: 1.8, &#39;XRP&#39;: 2.6, &#39;LTC&#39;: 3.0} .",
             "url": "https://tunguyenlam.github.io/blog/2024/05/29/Liquidity_risk_assessment.html",
             "relUrl": "/2024/05/29/Liquidity_risk_assessment.html",
