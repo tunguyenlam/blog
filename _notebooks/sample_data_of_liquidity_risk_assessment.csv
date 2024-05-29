@@ -1,0 +1,5 @@
+Cryptocurrency,Trading Volume (M),Transaction Count,Bid-Ask Spread (%),Market Depth,Historical Liquidity,Exchange Presence
+BTC,50,200000,0.1,High,Very Liquid,Major Exchanges
+ETH,30,150000,0.2,High,Mostly Liquid,Major Exchanges
+XRP,15,100000,0.5,Moderate,Moderately Liquid,Major Exchanges
+LTC,10,80000,0.8,Low,Affected,Major Exchanges
