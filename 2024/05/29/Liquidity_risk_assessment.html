@@ -150,6 +150,124 @@ window.onload = wrap_img;
         
 <div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>We generate a simple demo data as below:</strong></p>
+
+</div>
+</div>
+</div>
+    
+    
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span> 
+<span class="n">df</span> <span class="o">=</span> <span class="n">pd</span><span class="o">.</span><span class="n">read_csv</span><span class="p">(</span><span class="s2">&quot;sample_data_of_liquidity_risk_assessment.csv&quot;</span><span class="p">)</span>
+<span class="n">df</span>
+</pre></div>
+
+    </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+<div class="output_area">
+
+
+<div class="output_html rendered_html output_subarea output_execute_result">
+<div>
+<style scoped="">
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>Cryptocurrency</th>
+      <th>Trading Volume (M)</th>
+      <th>Transaction Count</th>
+      <th>Bid-Ask Spread (%)</th>
+      <th>Market Depth</th>
+      <th>Historical Liquidity</th>
+      <th>Exchange Presence</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>BTC</td>
+      <td>50</td>
+      <td>200000</td>
+      <td>0.1</td>
+      <td>High</td>
+      <td>Very Liquid</td>
+      <td>Major Exchanges</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>ETH</td>
+      <td>30</td>
+      <td>150000</td>
+      <td>0.2</td>
+      <td>High</td>
+      <td>Mostly Liquid</td>
+      <td>Major Exchanges</td>
+    </tr>
+    <tr>
+      <th>2</th>
+      <td>XRP</td>
+      <td>15</td>
+      <td>100000</td>
+      <td>0.5</td>
+      <td>Moderate</td>
+      <td>Moderately Liquid</td>
+      <td>Major Exchanges</td>
+    </tr>
+    <tr>
+      <th>3</th>
+      <td>LTC</td>
+      <td>10</td>
+      <td>80000</td>
+      <td>0.8</td>
+      <td>Low</td>
+      <td>Affected</td>
+      <td>Major Exchanges</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+</div>
+
+</div>
+
+</div>
+</div>
+
+</div>
+    
+
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<p><strong>Compute risk</strong></p>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
 <p>$Liquidity Risk Score= Trading Volume Score+Bid-Ask Spread Score+Market Depth Score+Historical Liquidity Score+Market Presence Score$
 ​</p>
 
@@ -206,6 +324,16 @@ window.onload = wrap_img;
 </div>
     
 
+<div class="cell border-box-sizing text_cell rendered"><div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li><strong>Low Liquidity Risk</strong>: BTC, ETH</li>
+<li><strong>Moderate Liquidity Risk</strong>: XRP, LTC</li>
+</ul>
+
+</div>
+</div>
+</div>
 </div>
 
 
